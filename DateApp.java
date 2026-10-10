@@ -10,5 +10,10 @@ public class DateApp {
         int b = 20;
         int sum = a + b;
         System.out.println("Sum of " + a + " and " + b + " is " + sum);
+
+        String[] fruits = {"Apple", "Banana", "Mango"};
+        for (String fruit : fruits) {
+            System.out.println("Fruit: " + fruit);
+        }
     }
 }
